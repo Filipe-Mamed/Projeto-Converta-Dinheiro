@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Converta Dinheiro</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Converta Dinheiro</h1>
+      </header>
+      <main>
+        <label>
+          Coverta <b>de</b>
+          <select>
+            <option>R$ Real brasileiro</option>
+          </select>
+        </label>
+
+        <label>
+          Coverta <b>para</b>
+          <select id="select-moeda">
+            <option>US$ Dólar americano</option>
+            <option>€ Euro</option>
+          </select>
+        </label>
+
+        <label>
+          <b>Valor</b>
+          <input placeholder="R$ 10.000,00" />
+        </label>
+
+        <button type="button">Converter</button>
+
+        <section>
+          <div class="container-dinheiro">
+            <img src="./assests/br.png" alt="brasil-png" />
+            <p class="paragrafo-dinheiro">Real</p>
+            <p class="balanço" id="real-valor">R$ 10.000,00</p>
+          </div>
+
+          <img class="seta"
+            src="./assests/seta.png"
+            alt="seta-pra-baixo-png"
+          />
+
+          <div class="container-dinheiro">
+            <img id="img-moeda"
+              src="./assests/eua.png"
+              alt="estados.unidos-png"
+            />
+            <p class="paragrafo-dinheiro" id="paragrafo-dinheiro">Dólar americano</p>
+            <p class="balanço" id="valor-moeda">US$ 2.000,00</p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+
+  <script src="./scripts.js"></script>
+</html>

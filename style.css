@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.container{
+    width: 375px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    height: 66px;
+}
+
+h1{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    align-items: center;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main{
+    padding: 24px;
+}
+
+label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7777;
+}
+
+select{
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input{
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+}
+
+button{
+    background-color: #1b83e2;
+    border-radius: 25px;
+    height: 48px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    border: none;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.4;
+}
+
+section{
+    border: 1px solid #1b83e2;
+    border-radius: 4px;
+}
+
+.container-dinheiro{
+    text-align: center;
+    padding: 10px;
+}
+
+.paragrafo-dinheiro{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #77777777;
+}
+
+.balanço{
+    color: #1b83e2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.seta{
+    margin: 15px auto;
+    display: flex;
+}
